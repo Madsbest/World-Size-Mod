@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "worldsize",
+  "version": "1.0",
+  "name": "WorldSize",
+  "description": "§6§lWorld Size Display§r is a lightweight, §nclient-side§r utility mod for Minecraft Fabric.\n\n§7Ever wondered how much disk space your worlds take up? With this mod, you §lno longer§r need to dive into your file explorer!",
+  "authors": [
+    "Mads"
+  ],
+  "license": "MIT",
+  "icon": "assets/worldsize/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "nl.mads.worldsize.WorldSizeMod"
+    ]
+  },
+  "mixins": [
+    "worldsize.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "26.1.x"
+  }
+}
